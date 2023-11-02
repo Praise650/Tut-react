@@ -1,0 +1,11 @@
+.welcome {
+ justify-content: center;
+ text-align: center;
+}
+
+.rcflogo {
+    height: 10vmin;
+    /* width: 226; */
+    pointer-events: none;
+    margin-bottom: 50px;
+  }

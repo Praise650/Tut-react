@@ -1,8 +1,19 @@
-function MyButton(){
+import { useNavigate } from "react-router-dom";
+import glass from '../csss/transparent-glass.module.css'; 
+
+function MyButton({btntitle,route, ...rest}) {
+
+    let navigate = useNavigate();
+    let title = 'Submit';
+    const routeChange = () => {
+        navigate(route??'/pages/about');
+    }
     return (
-        <button>
-            Submit
-        </button>
+        <div>
+            <button className={glass.button} onClick={routeChange}>
+            {btntitle??title}
+            </button>
+        </div>
     );
 }
 

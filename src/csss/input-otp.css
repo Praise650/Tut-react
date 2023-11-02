@@ -1,0 +1,91 @@
+.input-phone {
+    justify-content: center;
+    text-align: center;
+    color: #160A36;
+    font: riffic free;
+  }
+  
+  .rcflogo {
+    height: 10vmin;
+    /* width: 226; */
+    pointer-events: none;
+    margin-bottom: 50px;
+  }
+  
+  .input-phone-deco {
+    /* background-color: red; */
+    border-bottom: 3px solid black;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* .input-phone-number { 
+     width: 350px;
+     height: 64px; 
+     justify-self: center; 
+     text-align: center; 
+     background-color: blue; 
+     border: transparent;
+  } */
+  
+  .input-instruction {
+    size: 16px;
+    color: #000;
+    font-weight: 400;
+    font: poppins;
+  }
+  
+  .nav-btn {
+    /* justify-content: right; */
+    text-align: right;
+    margin-top: 20px;
+  }
+
+  .otp-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  .code {
+    caret-color: transparent;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border: 1px solid #eee;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    width: 75px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  @media (max-width: 600px) {
+    .otp-field{
+        flex-wrap: wrap;
+    }
+    .code{
+        font-size: 24px;
+        height: 50px;
+        max-width: 50px;
+        font-size: bold;
+    }
+  }
+  .code::--webkit-outer-spin-button,
+  .code::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+  }
+  .code:valid{
+    border-color: #9861c2;
+    box-shadow: 0 10px 10px -5px rgba(255, 255, 255, 0.25);
+  }
