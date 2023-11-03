@@ -1,10 +1,10 @@
 import React from "react"
-import '../App.css';
 import GeneralInputField from '../components/general_input_field';
+import glass from '../csss/transparent-glass.module.css';
 
 function AboutMePage() {
     return (
-        <div className="home-header">
+        <div className={glass.wrapper}>
             <div className='home-container'>
                 <div className='about'>
                     <div class="item">

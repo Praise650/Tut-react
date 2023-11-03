@@ -18,7 +18,7 @@ export default class AppRoute extends Component {
                     <Route path="/input-phone" element={<InputPhoneNumber />} />
                     <Route path="/input-otp" element={<InputOtp/>} />
                     <Route path="/homepage" element={<App />} />
-                    <Route path="/pages/about" element={<AboutMePage />} />
+                    <Route path="/about" element={<AboutMePage />} />
                     {/* <Route path="/Contact" component={Contact} />
                     <Route path="/Products" component={Products} /> */}
                 </Routes>

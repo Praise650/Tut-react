@@ -6,7 +6,7 @@ function MyButton({btntitle,route, ...rest}) {
     let navigate = useNavigate();
     let title = 'Submit';
     const routeChange = () => {
-        navigate(route??'/pages/about');
+        navigate(route??'/about');
     }
     return (
         <div>
